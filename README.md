@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+#
+- Hey, I want you to act as my React assistant, I aim to develop a clean, optimized, and efficient React application, so let's start guiding me with how to create a React application, I want you to be specific
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Task 1: Building an AXIOS Wrapper
 
-## Available Scripts
+- Create a TypeScript module for an AXIOS wrapper to streamline HTTP requests in your application. Begin by setting up necessary configurations such as the base URL and headers. Implement a function to automatically add security tokens to requests before they are sent. Ensure consistent data handling by implementing functions to process data returned from API calls. Additionally, include a function to handle file uploads, ensuring files are sent correctly with the request. Implement robust error handling mechanisms to manage HTTP errors effectively. Finally, implement a function to handle file downloads, accommodating changes in header values for different file types.- 
 
-In the project directory, you can run:
+2. Task 2: Building a Reusable Autocomplete Component
 
-### `npm start`
+- Design a reusable Autocomplete component in TypeScript. Define the component structure and implement logic to fetch data from the server or locally based on configuration settings. Incorporate debounce functionality to reduce unnecessary API calls, improving performance. Ensure the component is flexible and can be easily integrated into different parts of your application.
+- give me an mui to show the autocomplete suggestions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Task 3: Building a Reusable Form Component
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Develop a reusable Form component in TypeScript with a modular structure. Decide how each field type (text input, textarea, checkbox, radio button, select dropdown) will be represented within the component. Implement each field type, ensuring consistency in design and functionality. Make sure the component is flexible enough to accommodate various form requirements across your application.
 
-### `npm test`
+4. Task 4: Building Utility Functions for Field Validations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Create TypeScript utility functions for field validations. Implement a function to validate email fields, ensuring they adhere to the correct format. Additionally, develop a function to validate password fields according to specified criteria. These utility functions should be reusable and easily integrated into form components or other parts of your application where field validation is necessary.- 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+2) Give me a reusable auto complete the component 
